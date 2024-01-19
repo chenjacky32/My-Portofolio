@@ -11,14 +11,6 @@
   --bg-100: #1e293b;
   --bg-200: #334155;
   --bg-300: #475569;
-  /* font lama */
-  /* font lama */
-  /* --font: #ffe0e0;
-  --color1: #a7414a;
-  --color2: #282726;
-  --color3: #6a8a82;
-  --color4: #a37c27;
-  --color5: #563838; */
 }
 
 /* .roboto-slab-<uniquifier > {
@@ -43,9 +35,7 @@ html {
 
 body {
   font-family: "Roboto Slab", serif;
-  position: relative;
   background-color: var(--bg-100);
-  min-height: 2000px;
 }
 
 .navbar {
@@ -56,7 +46,6 @@ body {
   left: 0;
   top: 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding-block: 3px;
   width: 100%;
@@ -64,8 +53,8 @@ body {
 }
 
 .navbar .navbar-brand {
-  font-size: 2.2rem;
-  padding: 2rem;
+  font-size: 2rem;
+  padding: 2.2rem;
   color: var(--accent-200);
   text-decoration: dashed;
 }
@@ -79,7 +68,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   font-size: 1.3rem;
-  padding: 1rem 5rem;
+  padding: 1rem 4rem;
   gap: 1rem;
 }
 
@@ -90,44 +79,29 @@ body {
 /* hero section start*/
 
 .hero {
-  position: absolute;
-  display: flex;
   width: 100%;
-  height: 45%;
-}
-
-.hero .hero-content {
-  width: 50%;
-  height: 100%;
-  margin: 1rem 1rem;
-  top: 20rem;
-  text-align: start;
-}
-
-.hero .hero-img {
-  position: relative;
   display: flex;
-  margin-bottom: 0;
-  /* background-image: none; */
+  min-height: 100vh;
 }
 
-.hero .hero-img img {
+.hero img {
   position: absolute;
   border-radius: 50%;
-  top: 10rem;
-  left: 52rem;
-  width: 32rem;
-  height: 32rem;
+  top: 21%;
+  left: 55%;
+  height: 60%;
+  right: 15%;
   border: 20px solid var(--primary-300);
   border-style: double;
 }
 
 .hero .hero-content {
   position: relative;
-  /* color: var(--primary-300); */
-  top: 10rem;
-  left: 2rem;
-  width: 50%;
+  width: 45%;
+  height: 100%;
+  margin: 1rem 1rem;
+  top: 12rem;
+  left: 3rem;
   text-align: start;
 }
 
@@ -147,14 +121,16 @@ body {
 }
 
 .hero .hero-content p {
+  margin-top: 2rem;
   color: var(--text-100);
+  font-size: 25px;
 }
 
-.socials {
+.hero-content .socials {
   display: flex;
-  position: absolute;
-  top: 32rem;
-  left: 3rem;
+  position: relative;
+  top: 2rem;
+  left: 0;
   gap: 1rem;
 }
 
@@ -167,13 +143,14 @@ body {
 }
 
 .download-resume {
-  position: absolute;
+  position: relative;
 }
 
 .download-resume a {
   position: relative;
-  top: 38rem;
-  left: 3rem;
+  left: 0;
+  top: 5rem;
+  margin-left: 0;
   cursor: pointer;
   border-radius: 3rem;
   padding: 20px 20px;
@@ -188,76 +165,93 @@ body {
 /* hero section end */
 
 /* about me start */
-.container,
-.container-projects {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
+.about-me {
   padding: 8rem 7% 1.4rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
-.container .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 1rem;
-}
-
-.container .row .about-me {
-  align-items: center;
-  justify-content: center;
-  padding: 5rem 5% 5rem;
-  position: absolute;
-  left: 3rem;
-  top: 55rem;
-  width: 100%;
-}
-
-.container .row .about-me h1 {
+.about-me h2 {
   font-weight: bold;
   color: var(--accent-200);
   text-align: center;
   font-size: 50px;
-}
-.container .row .about-me-pict {
-  position: absolute;
-  display: flex;
-  left: 20rem;
-  top: 70rem;
-  width: 65%;
-  height: 25rem;
-  flex: 1 1 35rem;
+  margin-bottom: 3rem;
 }
 
-.container .row .about-me-pict img {
+.about-me .row {
+  display: flex;
+}
+
+.about-me-pict {
+  flex: 2 2 10rem;
+  padding-left: 15%;
+}
+
+.about-me-pict img {
+  border-radius: 50%;
+  border-style: double;
+  border-style: 20px;
   border: 20px solid var(--primary-300);
   border-style: double;
-  border-radius: 50%;
 }
 
-.container .row .about-me-pict .about-content {
-  margin-left: 7rem;
-  margin-right: auto;
-  margin-top: 3rem;
+.about-me .about-content {
+  flex: 1 1 30rem;
+  padding: 0 3rem;
+}
+
+.about-me .about-content p {
+  color: var(--accent-200);
   font-size: 25px;
-  line-height: 1.4;
+  line-height: 1.5;
   text-align: justify;
-  color: var(--accent-200);
-  align-items: center;
+  padding-top: 2rem;
+  padding-right: 5%;
 }
-
-.container .about-content button {
-  /* position: relative;
-  top: 38rem;
-  left: 3rem; */
-  cursor: pointer;
-  border-radius: 3rem;
-  padding: 20px 20px;
-  background-color: var(--bg-300);
-  color: var(--accent-200);
-  margin-top: 3rem;
-  font-weight: bold;
-}
-
 /* about me end */
+
+/* My project start */
+.projects {
+  position: relative;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.projects h1 {
+  font-weight: bold;
+  color: var(--accent-200);
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+
+.projects .projects-pict {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto 3rem;
+  /* align-items: stretch; */
+}
+
+.projects .projects-pict img {
+  border-radius: 20% 20%;
+  width: 85%;
+  height: 87%;
+  margin: 5rem auto;
+}
+/* My project end */
+
+/* contact Me */
+.contact-me {
+  position: relative;
+  padding-top: 8rem;
+} /* contact Me end */
+
+.contact-me h1 {
+  font-weight: bold;
+  color: var(--accent-200);
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
