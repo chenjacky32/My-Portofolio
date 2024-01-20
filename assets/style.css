@@ -36,6 +36,7 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   background-color: var(--bg-100);
+  min-height: 4000px;
 }
 
 .navbar {
@@ -113,7 +114,7 @@ body {
 }
 
 .hero .hero-content h3 span {
-  color: var(--accent-100);
+  color: var(--primary-200);
 }
 
 .hero .hero-content h4 span {
@@ -142,6 +143,10 @@ body {
   cursor: pointer;
 }
 
+.socials button:hover {
+  background-color: var(--primary-100);
+}
+
 .download-resume {
   position: relative;
 }
@@ -156,6 +161,10 @@ body {
   padding: 20px 20px;
   background-color: var(--bg-300);
   color: var(--accent-200);
+}
+
+.download-resume a:hover {
+  background-color: var(--primary-100);
 }
 
 .download-resume a span {
@@ -209,6 +218,19 @@ body {
   padding-top: 2rem;
   padding-right: 5%;
 }
+
+.about-me .about-content button {
+  position: relative;
+  top: 2rem;
+  margin-left: 0;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 20px 20px;
+  background-color: var(--bg-300);
+  color: var(--accent-200);
+  font-weight: bold;
+}
+
 /* about me end */
 
 /* My project start */
@@ -239,6 +261,7 @@ body {
   width: 85%;
   height: 87%;
   margin: 5rem auto;
+  border-style: dotted;
 }
 /* My project end */
 
@@ -246,12 +269,89 @@ body {
 .contact-me {
   position: relative;
   padding-top: 8rem;
-} /* contact Me end */
+  margin: 5rem 3%;
+  height: 100%;
+}
 
 .contact-me h1 {
   font-weight: bold;
   color: var(--accent-200);
   text-align: center;
   font-size: 50px;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
+
+.contact-me .map {
+  padding-block: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  padding-left: 1rem;
+  margin-top: 3rem;
+}
+
+.contact-me .map .maps {
+  flex: 1 1 40rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact-me .sosmed {
+  display: flex;
+  flex: 1 1 40rem;
+  text-align: start;
+  padding: auto 1rem;
+  flex-direction: column;
+}
+
+.contact-me .sosmed .contact-detail {
+  display: flex;
+  align-items: start;
+  border: 5px solid var(--bg-300);
+  flex-direction: column;
+  padding: 2% 5%;
+  margin: auto 1rem;
+  border-style: ridge;
+}
+
+.contact-me .sosmed .contact-detail:hover {
+  background-color: var(--bg-200);
+}
+
+.contact-me .sosmed .contact-detail a,
+h2 {
+  width: 100%;
+  font-size: 1.2rem;
+  background: none;
+  color: var(--accent-200);
+}
+
+.contact-me .sosmed .contact-detail img {
+  margin-top: 2rem;
+}
+
+.contact-detail .detail-icon {
+  display: flex;
+  gap: 1rem;
+}
+.contact-detail .detail-icon a {
+  margin-top: 3.5rem;
+  font-size: 20px;
+}
+
+/* 
+.contact-me .contact-detail h2 {
+  color: var(--accent-200);
+}
+
+.contact-detail .sosmed,
+.contact-detail .contact-me,
+.contact-detail .address {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid var(--accent-200);
+} */
+/* contact me end */
