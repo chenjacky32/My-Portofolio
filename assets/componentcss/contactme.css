@@ -25,14 +25,14 @@
 }
 
 .contact-me .map .maps {
-  flex: 1 1 40rem;
+  flex: 1 1 25rem;
   width: 100%;
   object-fit: cover;
 }
 
 .contact-me .sosmed {
   display: flex;
-  flex: 1 1 40rem;
+  flex: 1 1 30rem;
   text-align: start;
   padding: auto 1rem;
   flex-direction: column;
@@ -55,7 +55,7 @@
 .contact-me .sosmed .contact-detail a,
 h2 {
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1rem;
   background: none;
   font-weight: bold;
   color: var(--accent-200);
@@ -63,6 +63,8 @@ h2 {
 
 .contact-me .sosmed .contact-detail img {
   margin-top: 2rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .contact-detail .detail-icon {

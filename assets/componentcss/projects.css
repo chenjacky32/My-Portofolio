@@ -17,9 +17,9 @@
 
 .projects .projects-pict {
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin: auto 3rem;
+  /* grid-gap: 1rem; */
+  grid-template-columns: repeat(3, 0.5fr);
+  /* margin: auto 3rem;  */
   align-content: start;
 }
 
@@ -27,10 +27,15 @@
   align-self: start;
   border-radius: 20% 20%;
   width: 87%;
-  height: 18rem;
-  /* width: 85%;
-  height: 87%; */
+  height: 20rem;
+  /*width: 85%;
+  height: 87%;
+  */
   margin: 5rem auto;
   border-style: solid;
+  -webkit-border-radius: 20% 20%;
+  -moz-border-radius: 20% 20%;
+  -ms-border-radius: 20% 20%;
+  -o-border-radius: 20% 20%;
 }
 /* My project end */

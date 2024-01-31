@@ -46,7 +46,7 @@ body {
 /* responsive */
 @media (max-width: 1400px) {
   html {
-    font-size: 100%;
+    font-size: 90%;
   }
 }
 
@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 576px) {
   html {
-    font-size: 62%;
+    font-size: 60%;
   }
 
   .hero {
@@ -225,21 +225,17 @@ body {
   }
 
   .projects .projects-pict img {
-    width: 55%;
+    width: 50%;
     height: 18rem;
   }
 
   .contact-me {
-    margin-top: 60rem;
-  }
-
-  .contact-me h4 {
-    font-size: 20px;
+    margin-top: 80rem;
   }
 
   .contact-me .map {
     flex-direction: column;
-    padding: 2rem 5rem;
+    padding: 2rem 1rem;
   }
 
   .contact-me .sosmed {
