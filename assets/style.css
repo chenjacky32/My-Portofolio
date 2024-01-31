@@ -138,10 +138,6 @@ body {
     gap: 5rem;
     padding-top: 5rem;
     text-align: left;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
   }
 
   .navbar .navbar-nav.active {
@@ -230,7 +226,7 @@ body {
 
   .projects .projects-pict img {
     width: 55%;
-    height: 84%;
+    height: 18rem;
   }
 
   .contact-me {

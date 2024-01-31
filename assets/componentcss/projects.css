@@ -20,12 +20,16 @@
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
   margin: auto 3rem;
+  align-content: start;
 }
 
 .projects .projects-pict img {
+  align-self: start;
   border-radius: 20% 20%;
-  width: 85%;
-  height: 87%;
+  width: 87%;
+  height: 18rem;
+  /* width: 85%;
+  height: 87%; */
   margin: 5rem auto;
   border-style: solid;
 }
