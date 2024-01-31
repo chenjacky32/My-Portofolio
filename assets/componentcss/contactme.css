@@ -1,0 +1,75 @@
+/* contact Me */
+.contact-me {
+  position: relative;
+  padding: 8rem 7% 1.4rem;
+  margin: 5rem 3%;
+  height: 100vh;
+}
+
+.contact-me h4 {
+  font-weight: bold;
+  color: var(--accent-200);
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 5rem;
+}
+
+.contact-me .map {
+  padding-block: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  padding-left: 1rem;
+  margin-top: 3rem;
+}
+
+.contact-me .map .maps {
+  flex: 1 1 40rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact-me .sosmed {
+  display: flex;
+  flex: 1 1 40rem;
+  text-align: start;
+  padding: auto 1rem;
+  flex-direction: column;
+}
+
+.contact-me .sosmed .contact-detail {
+  display: flex;
+  align-items: start;
+  border: 5px solid var(--bg-300);
+  flex-direction: column;
+  padding: 2% 5%;
+  margin: auto 1rem;
+  border-style: ridge;
+}
+
+.contact-me .sosmed .contact-detail:hover {
+  background-color: var(--bg-200);
+}
+
+.contact-me .sosmed .contact-detail a,
+h2 {
+  width: 100%;
+  font-size: 1.3rem;
+  background: none;
+  font-weight: bold;
+  color: var(--accent-200);
+}
+
+.contact-me .sosmed .contact-detail img {
+  margin-top: 2rem;
+}
+
+.contact-detail .detail-icon {
+  display: flex;
+  gap: 1rem;
+}
+.contact-detail .detail-icon a {
+  margin-top: 3.5rem;
+  font-size: 1.3rem;
+}

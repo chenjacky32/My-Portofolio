@@ -1,0 +1,79 @@
+/* about me start */
+.about-me {
+  padding: 8rem 7% 1.4rem;
+  /* margin-top: 5rem;
+    margin-bottom: 10rem; */
+}
+
+.about-me h4 {
+  font-weight: bold;
+  color: var(--accent-200);
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+.about-me .row {
+  display: grid;
+  grid-template-columns: minmax(200px, 500px) auto;
+  grid-template-rows: minmax(200px, 800px);
+  grid-template-areas: "pict desc";
+  align-items: center;
+  margin: 1rem 1.5rem;
+  padding: 1rem 2rem;
+  gap: 2rem;
+
+  /* margin-top: 3rem; */
+}
+
+.about-me .row .about-me-pict {
+  align-self: self-start;
+  padding-top: 2rem;
+}
+
+.about-me .row .about-content {
+  align-self: self-start;
+}
+
+/* .about-me .row .about-me-pict {
+    flex: 1 1 45rem;
+    padding-left: 2%;
+  } */
+
+.about-me .row .about-me-pict img {
+  border-radius: 50%;
+  border: 20px solid var(--primary-300);
+  border-style: double;
+  width: 24rem;
+  height: 100%;
+}
+
+/* .about-me .row .about-content {
+    flex: 1 1 33rem;
+    padding: 0 3rem;
+  } */
+
+.about-me .about-content p {
+  color: var(--accent-200);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: start;
+  padding-top: 2rem;
+  padding-left: 5%;
+}
+
+.about-me .about-content button {
+  padding-left: 5%;
+  position: relative;
+  top: 2rem;
+  margin-left: 5%;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 1.2rem 1.2rem;
+  background-color: var(--bg-300);
+  color: var(--accent-200);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* about me end */

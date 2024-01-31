@@ -1,0 +1,52 @@
+.navbar {
+  background-color: var(--bg-200);
+  line-height: 1rem;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 3px;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  padding: 2.2rem;
+  color: var(--accent-200);
+  text-decoration: dashed;
+}
+
+.navbar .navbar-brand span {
+  color: var(--accent-100);
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+  padding: 1rem 4rem;
+  gap: 1rem;
+}
+
+.navbar .navbar-nav a {
+  color: var(--accent-200);
+}
+
+.navbar .navbar-nav a::after {
+  transform-origin: 0 0;
+}
+
+.navbar .navbar a:hover::after {
+  transform: scaleX(0.2);
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary-300);
+}
+
+#hamburger-menu {
+  display: none;
+}
