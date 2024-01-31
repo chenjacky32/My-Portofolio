@@ -105,12 +105,11 @@ body {
   }
 
   .projects .projects-pict {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(200px, 400px));
   }
 
   .projects .projects-pict img {
     width: 80%;
-    height: 84%;
   }
 
   .contact-me h4 {
@@ -221,16 +220,16 @@ body {
   }
 
   .projects .projects-pict {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, minmax(200px, 600px));
   }
 
   .projects .projects-pict img {
-    width: 50%;
-    height: 18rem;
+    width: 45%;
+    height: 20rem;
   }
 
   .contact-me {
-    margin-top: 80rem;
+    margin-top: 120rem;
   }
 
   .contact-me .map {
