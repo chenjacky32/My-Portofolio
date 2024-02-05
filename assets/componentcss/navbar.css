@@ -12,7 +12,7 @@
 }
 
 .navbar .navbar-brand {
-  font-size: 2rem;
+  font-size: 2.1rem;
   padding: 2.2rem;
   color: var(--accent-200);
   text-decoration: dashed;
@@ -41,10 +41,6 @@
 
 .navbar .navbar a:hover::after {
   transform: scaleX(0.2);
-}
-
-.navbar .navbar-nav a:hover {
-  color: var(--primary-300);
 }
 
 #hamburger-menu {

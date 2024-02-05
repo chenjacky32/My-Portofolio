@@ -32,9 +32,9 @@
 
 .hero .hero-content h4,
 .hero .hero-content h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Aladin", system-ui;
   color: var(--accent-200);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .hero .hero-content h3 span {
@@ -55,83 +55,29 @@
 .hero-content .socials {
   display: flex;
   position: relative;
-  top: 2rem;
-  left: 0;
   gap: 1rem;
+  margin-top: 2.5rem;
 }
 
-/* fix  */
-
-/* maintenance */
-/* 
-  .hero img {
-    position: absolute;
-    border-radius: 50%;
-    top: 20%;
-    left: 55%;
-    height: 50%;
-    right: 15%;
-    border: 20px solid var(--primary-300);
-    border-style: double;
-  } */
-
-/* .hero .hero-content {
-    position: relative;
-    width: 45%;
-    height: 100%;
-    margin: 1rem 1rem;
-    top: 12rem;
-    left: 3rem;
-    text-align: start;
-  } */
-/* 
-  .hero .hero-content h4,
-  .hero .hero-content h3 {
-    font-family: "Roboto Slab", serif;
-    color: var(--accent-200);
-    font-size: 3rem;
-  }
-  
-  .hero .hero-content h3 span {
-    color: var(--primary-200);
-  }
-  
-  .hero .hero-content h4 span {
-    color: var(--primary-200);
-  }
-  
-  .hero .hero-content p {
-    margin-top: 2rem;
-    color: var(--text-100);
-    font-size: 1.5rem;
-  }
-  
-  .hero-content .socials {
-    display: flex;
-    position: relative;
-    top: 2rem;
-    left: 0;
-    gap: 1rem;
-  } */
-
-/* maintenance */
-
-.socials button {
-  border-radius: 100%;
-  width: 4rem;
-  height: 4rem;
-  background-color: var(--primary-300);
+.hero-content .socials-media {
   cursor: pointer;
-  grid-area: header;
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  box-sizing: border-box;
+  background-color: var(--primary-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.socials button:hover {
-  background-color: var(--primary-100);
+.hero-content .socials-media:hover {
+  background-color: var(--bg-300);
 }
 
-.socials button svg {
-  height: 2rem;
+.hero-content .socials-media svg {
   width: 2rem;
+  height: 2rem;
 }
 
 .download-resume {
