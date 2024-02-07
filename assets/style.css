@@ -15,9 +15,19 @@
   --accent-200: #fae8ff;
   --text-100: #cbd5e1;
   --text-200: #94a3b8;
-  --bg-100: #1e293b;
-  --bg-200: #334155;
-  --bg-300: #475569;
+  --bg-100: rgb(30, 41, 59);
+  --bg-200: rgb(51, 65, 85);
+  --bg-300: rgb(71, 85, 105);
+  --primary-101: #1f3a5f;
+  --primary-201: #4d648d;
+  --primary-301: #acc2ef;
+  --accent-101: #3d5a80;
+  --accent-201: #cee8ff;
+  --text-101: #ffffff;
+  --text-201: #e0e0e0;
+  --bg-101: rgb(15, 28, 46);
+  --bg-201: rgb(31, 43, 62);
+  --bg-301: rgb(55, 67, 87);
 }
 
 /* .roboto-slab-<uniquifier > {
@@ -42,7 +52,7 @@ html {
 
 body {
   font-family: "Roboto Slab", serif;
-  background-color: var(--bg-100);
+  background-color: var(--bg-201);
 }
 
 /* responsive */

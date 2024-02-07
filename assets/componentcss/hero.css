@@ -10,6 +10,10 @@
   align-items: center;
   margin: 1rem 1.5rem;
   padding: 1.5rem 2rem;
+  background-color: var(--bg-101);
+  box-shadow: -4px 10px 99px 20px rgba(71, 85, 105, 0.35) inset;
+  -webkit-box-shadow: -4px 10px 99px 20px rgba(71, 85, 105, 0.35) inset;
+  -moz-box-shadow: -4px 10px 99px 20px rgba(71, 85, 105, 0.35) inset;
 }
 
 /* fix */
@@ -20,6 +24,26 @@
   border-radius: 50%;
   border: 20px solid var(--primary-300);
   border-style: double;
+  animation: infinite 4s ease-in-out;
+  -webkit-animation: naik-turun 4s ease-in-out infinite;
+}
+
+@keyframes naik-turun {
+  0%,
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1rem);
+    -webkit-transform: translateY(rem);
+    -moz-transform: translateY(rem);
+    -ms-transform: translateY(rem);
+    -o-transform: translateY(rem);
+  }
 }
 
 .hero .hero-content {

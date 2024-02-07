@@ -1,6 +1,11 @@
 /* about me start */
 .about-me {
   padding: 8rem 7% 1.4rem;
+  background-color: var(--bg-101);
+  margin: 1rem 1.5rem;
+  box-shadow: -4px 10px 99px 20px rgba(71, 85, 105, 0.35) inset;
+  -webkit-box-shadow: -4px 10px 99px 20px rgba(71, 85, 105, 0.35) inset;
+  -moz-box-shadow: -4px 10px 99px 20px rgba(71, 85, 105, 0.35) inset;
   /* margin-top: 5rem;
     margin-bottom: 10rem; */
 }
@@ -29,6 +34,8 @@
 .about-me .row .about-me-pict {
   align-self: self-start;
   padding-top: 2rem;
+  animation: naik-turun 4s ease-in-out infinite;
+  -webkit-animation: naik-turun 4s ease-in-out infinite;
 }
 
 .about-me .row .about-content {
